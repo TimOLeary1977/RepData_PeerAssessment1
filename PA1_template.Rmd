@@ -3,6 +3,7 @@ title: "PA1_template"
 author: "Tim O'Leary"
 date: "Saturday, March 14, 2015"
 output: html_document
+keep_md: true
 ---
 
 ##Part 1 - Loading and pre-processing data
