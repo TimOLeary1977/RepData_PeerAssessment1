@@ -26,7 +26,7 @@ data.sum <- aggregate(x=data.without.nas[c("steps")],FUN=sum,by=list(Group.date 
 
 ```
 The data was then plotted as a histogram.
-```{r, echo=FALSE}
+```{r, echo=TRUE}
 hist(data.sum$steps)
 ```
 Finally the mean and median were calculated.
@@ -76,7 +76,7 @@ This section works though the necessay analysis to determine the average activit
 
 
 Plots the time series.
-```{r, echo=FALSE}
+```{r, echo=TRUE}
   plot(summary.df[,1],summary.df[,2],type="l")
 ```
 
